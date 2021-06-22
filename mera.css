@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', cursive;
+   
+}
+body{
+    background-image: url(pic/free.jpg);
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(5, 5, 5, 0.637);
+    background-blend-mode: overlay;
+   
+}
+h2{
+    margin-top: 40px;
+    
+   
+    font-size: 3em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: silver;
+    text-shadow:4px gold;
+    
+
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.icon a{
+   display: inline-flex;
+   width: 100px;
+   height: 100px;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   font-size: 40px;
+   background-color: white;
+   margin: 10px;
+   box-shadow: 0 10px 10px grey;
+   background-size: 100% 200%;
+   background-position: 0% 5%;
+   transition: background-position 0.5s, color 0.5s;
+   cursor: pointer;
+}
+.icon a:nth-child(1){
+    color: rgb(48, 113, 235);
+    background-image: linear-gradient(white 50%, rgb(49, 92, 231) 50%);
+    border-top: 2px solid rgb(59, 59, 240);
+}
+.icon a:nth-child(2){
+   color: rgb(89, 169, 219);
+   background-image: linear-gradient(white 50%, rgb(94, 189, 245) 50%);
+   border-top: 2px solid rgb(39, 208, 250);
+}
+.icon a:nth-child(3){
+    color: red;
+    background-image: linear-gradient(white 50%, rgb(252, 44, 44) 50%);
+    border-top: 2px solid rgb(219, 89, 89);
+}
+.icon a:hover{
+    background-position: 0% 100%;
+    color: white;
+}
