@@ -1,1 +1,1 @@
-# profileinfo.io
+# profileinfo.github.io
